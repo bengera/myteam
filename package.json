@@ -1,0 +1,23 @@
+{
+  "name": "myteam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss:watch": "sass --watch sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengera/myteam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengera/myteam/issues"
+  },
+  "homepage": "https://github.com/bengera/myteam#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}

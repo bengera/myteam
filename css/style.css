@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap");
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Livvic", sans-serif;
+}
+
+.h1-large {
+  font-size: 6.25rem;
+  line-height: 100px;
+}
+
+.h1-small {
+  font-size: 4rem;
+  line-height: 56;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 48;
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 28;
+}
+
+.body1,
+.body2 {
+  font-family: "Livvic", sans-serif;
+}
+
+.body1 {
+  font-size: 1.125rem;
+  line-height: 28;
+}
+
+.body2 {
+  font-size: 0.938rem;
+  line-height: 25;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.btn-test {
+  background-color: #F67E7E;
+}
+
+body {
+  background-color: #014E56;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: "Livvic", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
