@@ -65,4 +65,35 @@ body {
   font-family: "Livvic", sans-serif;
 }
 
+.nav__inner-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 20px 0 26px 0;
+}
+.nav__inner-left {
+  display: flex;
+  gap: 2rem;
+}
+.nav__list {
+  display: none;
+  gap: 2rem;
+  align-self: center;
+  list-style: none;
+}
+.nav__btn-contact {
+  display: none;
+}
+.nav__list-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hamburger-menu {
+  width: 29px;
+  height: 27px;
+  align-self: center;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */

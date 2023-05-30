@@ -26,8 +26,6 @@ body {
   font-family: t.$font;
 }
 
-
-  
 // }
 
 // svg {
@@ -39,6 +37,40 @@ body {
 //   @include transition;
 // }
 
+.nav {
+  &__inner-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 20px 0 26px 0;
+  }
 
+  &__inner-left {
+    display: flex;
+    gap: 2rem;
+  }
 
+  &__list {
+    display: none;
+    // display: flex;
+    gap: 2rem;
+    align-self: center;
+    list-style: none;
+  }
 
+  &__btn-contact {
+    display: none;
+  }
+
+  &__list-link {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.hamburger-menu {
+  width: 29px;
+  height: 27px;
+  align-self: center;
+  cursor: pointer;
+}
