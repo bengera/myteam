@@ -43,8 +43,8 @@ body {
     justify-content: space-between;
     padding: 1rem;
     margin: 20px 0 26px 0;
+    
   }
-
   &__inner-left {
     display: flex;
     gap: 2rem;
@@ -79,18 +79,20 @@ body {
   color: $color-light-coral;
 }
 
-.header{
+.header {
   
   &__heading {
     font-size: 40px;
+    margin-bottom: 18px;
   }
 
   &__content {
     color: $color-white;
     font-weight: 600;
-    max-width: 327px;
+    max-width: 357px;
     margin: 0 auto;
     text-align: center;
+    padding: 5rem 0;
 
   }
 
@@ -105,4 +107,9 @@ body {
   &__description {
     line-height: 28px;
   }
+
+  &__bottom-img {
+    width: 100vw;
+  }
+
 }

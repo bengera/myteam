@@ -102,16 +102,21 @@ body {
 
 .header__heading {
   font-size: 40px;
+  margin-bottom: 18px;
 }
 .header__content {
   color: #FFF;
   font-weight: 600;
-  max-width: 327px;
+  max-width: 357px;
   margin: 0 auto;
   text-align: center;
+  padding: 5rem 0;
 }
 .header__description {
   line-height: 28px;
+}
+.header__bottom-img {
+  width: 100vw;
 }
 
 /*# sourceMappingURL=style.css.map */
