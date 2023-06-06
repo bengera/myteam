@@ -37,13 +37,32 @@ body {
 //   @include transition;
 // }
 
+.hamburger-menu {
+  background-color: transparent;
+  background-image: url(/assets/icon-hamburger.svg);
+  background-repeat: no-repeat;
+  border: 0;
+  cursor: pointer;
+  width: 20px;
+  height: 17px;
+  background-position: center center;
+}
+
+.hamburger-menu.active {
+  background-image: url(/assets/icon-close.svg);
+}
+
+.logo {
+  width: 128px;
+  height: 32px;
+}
+
 .nav {
   &__inner-container {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     margin: 20px 0 26px 0;
-    
   }
   &__inner-left {
     display: flex;
@@ -80,7 +99,6 @@ body {
 }
 
 .header {
-  
   &__heading {
     font-size: 40px;
     margin-bottom: 18px;
@@ -92,16 +110,13 @@ body {
     max-width: 357px;
     margin: 0 auto;
     text-align: center;
-    padding: 5rem 0;
-
+    padding: 5rem 0 8rem 0;
   }
 
   &__left {
-    
   }
 
   &__right {
-    
   }
 
   &__description {
@@ -111,5 +126,4 @@ body {
   &__bottom-img {
     width: 100vw;
   }
-
 }

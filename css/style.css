@@ -65,6 +65,26 @@ body {
   font-family: "Livvic", sans-serif;
 }
 
+.hamburger-menu {
+  background-color: transparent;
+  background-image: url(/assets/icon-hamburger.svg);
+  background-repeat: no-repeat;
+  border: 0;
+  cursor: pointer;
+  width: 20px;
+  height: 17px;
+  background-position: center center;
+}
+
+.hamburger-menu.active {
+  background-image: url(/assets/icon-close.svg);
+}
+
+.logo {
+  width: 128px;
+  height: 32px;
+}
+
 .nav__inner-container {
   display: flex;
   justify-content: space-between;
@@ -110,7 +130,7 @@ body {
   max-width: 357px;
   margin: 0 auto;
   text-align: center;
-  padding: 5rem 0;
+  padding: 5rem 0 8rem 0;
 }
 .header__description {
   line-height: 28px;
