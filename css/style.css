@@ -96,4 +96,22 @@ body {
   cursor: pointer;
 }
 
+.h1-red {
+  color: #F67E7E;
+}
+
+.header__heading {
+  font-size: 40px;
+}
+.header__content {
+  color: #FFF;
+  font-weight: 600;
+  max-width: 327px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header__description {
+  line-height: 28px;
+}
+
 /*# sourceMappingURL=style.css.map */
