@@ -1,0 +1,58 @@
+@use "../abstracts" as *; 
+
+
+//OVERLAY
+.overlay {
+    position: fixed;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .overlay.show {
+    opacity: 0.6;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    // background-color: rgb(45, 49, 77);
+  }
+  
+
+  
+  .h1-red {
+    color: $color-light-coral;
+  }
+  
+  .header {
+    &__heading {
+      font-size: 40px;
+      margin-bottom: 18px;
+    }
+  
+    &__content {
+      color: $color-white;
+      font-weight: 600;
+      max-width: 357px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 5rem 0 8rem 0;
+    }
+  
+    &__left {
+    }
+  
+    &__right {
+    }
+  
+    &__description {
+      line-height: 28px;
+    }
+  
+    &__bottom-img {
+      margin-top: 2rem;
+      width: 100vw;
+    }
+  }
+  
