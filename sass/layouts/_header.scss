@@ -26,9 +26,12 @@
   }
   
   .header {
+    margin-bottom: -4px;
+    
     &__heading {
-      font-size: 40px;
+      font-size: 2.5rem;
       margin-bottom: 18px;
+      
     }
   
     &__content {

@@ -26,3 +26,49 @@ body {
   font-family: t.$font;
 }
 
+//OVERVIEW SECTION
+
+.overview {
+  background-color: $color-dark-green;
+
+  &__left-content {
+    padding-top: 80px;
+    padding-left: 24px;
+  }
+
+  &__right-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+    gap: 3rem;
+  }
+
+  &__heading {
+    background: linear-gradient(#F67E7E, #F67E7E) 0% 0% no-repeat;
+    background-size: 20% 5px;
+    padding-top: 48px;
+
+    color: $color-white;
+    font-size: 2rem;
+    width: 230px;
+    line-height: 32px;
+  }
+
+  &__box-heading {
+    color: $color-light-coral;
+    margin-bottom: 8px;
+  }
+
+  &__description {
+    color: $color-white;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 345px;
+    margin: 0 auto;
+    line-height: 25px;
+  }
+}
