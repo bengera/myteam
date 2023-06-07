@@ -127,7 +127,7 @@ body {
   height: 100%;
   background-image: url(../assets/bg-pattern-about-1-mobile-nav-1.svg);
   background-repeat: no-repeat;
-  background-position: 220% 80%;
+  background-position: 220% 90%;
 }
 .nav-primary__list {
   text-decoration: none;
@@ -178,6 +178,7 @@ body {
   line-height: 28px;
 }
 .header__bottom-img {
+  margin-top: 2rem;
   width: 100vw;
 }
 
