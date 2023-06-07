@@ -16,3 +16,4 @@ hamMenu.addEventListener('click', () => {
         document.body.setAttribute("style", "position:static");
     }
 })
+
