@@ -12,8 +12,8 @@ hamMenu.addEventListener('click', () => {
         document.body.setAttribute("style", "position:fixed");
 
     } else {
-        overlay.setAttribute("style", "display:none");
+        overlay.classList.toggle('active');
         document.body.setAttribute("style", "position:static");
     }
-})
+});
 
