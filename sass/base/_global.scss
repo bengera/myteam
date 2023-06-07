@@ -30,6 +30,7 @@ body {
 
 .overview {
   background-color: $color-dark-green;
+  position: relative;
 
   &__left-content {
     padding-top: 80px;
@@ -41,13 +42,19 @@ body {
     flex-direction: column;
     margin-top: 56px;
     gap: 3rem;
+    // background-image: url(/assets/bg-pattern-home-3.svg);
+    // background-repeat: no-repeat;
+  }
+
+  &__bg-img {
+    position: absolute;
+    right: -85px;
   }
 
   &__heading {
     background: linear-gradient(#F67E7E, #F67E7E) 0% 0% no-repeat;
     background-size: 20% 5px;
     padding-top: 48px;
-
     color: $color-white;
     font-size: 2rem;
     width: 230px;

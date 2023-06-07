@@ -376,6 +376,7 @@ body {
 
 .overview {
   background-color: #002529;
+  position: relative;
 }
 .overview__left-content {
   padding-top: 80px;
@@ -386,6 +387,10 @@ body {
   flex-direction: column;
   margin-top: 56px;
   gap: 3rem;
+}
+.overview__bg-img {
+  position: absolute;
+  right: -85px;
 }
 .overview__heading {
   background: linear-gradient(#F67E7E, #F67E7E) 0% 0% no-repeat;
