@@ -358,6 +358,12 @@ h3 {
   box-sizing: inherit;
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
