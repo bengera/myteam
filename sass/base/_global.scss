@@ -1,6 +1,4 @@
-// @use '../abstracts/variables' as v; // double dot to go back an additional step // as v changes namespace
-// @use '../abstracts/variables' as *;  // takes away the namespace
-@use "../abstracts" as *; // imported with folder because of forwards
+@use "../abstracts" as *;
 @use "./typography" as t;
 *,
 *::before,
@@ -10,12 +8,16 @@
   box-sizing: inherit;
 }
 
-html, body {margin: 0; height: 100%; overflow-x: hidden}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
 
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-
 }
 
 .btn-test {
@@ -29,56 +31,82 @@ body {
   font-family: t.$font;
 }
 
-//OVERVIEW SECTION
-
-.overview {
-  background-color: $color-dark-green;
-  position: relative;
-
-  &__left-content {
-    padding-top: 80px;
-    padding-left: 24px;
-  }
-
-  &__right-content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 56px;
-    gap: 3rem;
-    // background-image: url(/assets/bg-pattern-home-3.svg);
-    // background-repeat: no-repeat;
-  }
-
-  &__bg-img {
-    position: absolute;
-    right: -100px;
+//TESTIMONIALS
+.testimonials {
+  color: $color-white;
+  background-image: 
+  url(/assets/bg-pattern-home-4-about-3.svg),
+  url(/assets/bg-pattern-home-5.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  &__content {
+    padding: 2rem;
+    padding-top: 144px;
+    padding-bottom: 70px;
   }
 
   &__heading {
-    background: linear-gradient(#F67E7E, #F67E7E) 0% 0% no-repeat;
-    background-size: 20% 5px;
-    padding-top: 48px;
-    color: $color-white;
     font-size: 2rem;
-    width: 230px;
     line-height: 32px;
+    text-align: center;
+    margin-bottom: 5rem;
   }
 
-  &__box-heading {
-    color: $color-light-coral;
-    margin-bottom: 8px;
+  &__span {
+    color: $color-rapture-blue;
   }
 
-  &__description {
-    color: $color-white;
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    // background-image: url(/assets/bg-pattern-home-5.svg);
+    // background-repeat: no-repeat;
+    // background-position: 0% 0%;
   }
 
   &__box {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    position: relative;
     max-width: 345px;
     margin: 0 auto;
+    text-align: center;
+  }
+
+  &__quote {
+    font-size: 0.938rem;
     line-height: 25px;
+    margin-bottom: 16px;
+  }
+
+  &__name {
+    color: $color-rapture-blue;
+    font-weight: 1.125rem;
+    margin-bottom: 8px;
+  }
+
+  &__job {
+    font-size: 0.813rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  &__img {
+    margin-top: 16px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 2px solid #c4fffe;
+  }
+
+  &__quote-svg {
+    position: absolute;
+    left: 40%;
+    top: -10%;
+    z-index: -1;
   }
 }
+
+div.testimonials__box:nth-child(3) {
+  margin-bottom: 6rem;
+ }
+ 
