@@ -1,7 +1,7 @@
-@use "../abstracts" as *; // imported with folder because of forwards
+@use "../abstracts" as *; 
 
 .overview {
-    background-color: $color-dark-green;
+  background-color: #012f34;
     position: relative;
   
     &__left-content {
