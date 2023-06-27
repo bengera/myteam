@@ -381,32 +381,50 @@ body {
   font-family: "Livvic", sans-serif;
 }
 
-.contact {
+.m-s {
+  margin-bottom: 24px;
+}
+
+.footer {
+  background-color: #002529;
+  padding: 2rem;
+  text-align: center;
+}
+.footer__content {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  background-color: #F67E7E;
-  background-image: url(/assets/bg-pattern-home-6-about-5.svg);
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  padding: 5rem 5rem 6rem 6rem;
-  text-align: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.contact__heading {
-  font-size: 2rem;
-  text-align: center;
-  color: #012F34;
-  line-height: 32px;
+.footer__left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.contact__btn-contact {
-  border: 2px solid #012F34;
-  padding: 0.9rem;
-  border-radius: 24px;
-  background-color: transparent;
-  font-size: 1.125rem;
-  color: #012F34;
-  width: 153px;
-  cursor: pointer;
+.footer__nav-list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.footer__nav-link {
+  color: white;
+  text-decoration: none;
+}
+.footer__address {
+  font-style: normal;
+  color: rgba(247, 247, 247, 0.5);
+  line-height: 30px;
+}
+.footer__social-media {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.footer__copyright {
+  color: rgba(247, 247, 247, 0.5);
 }
 
 .overlay {
@@ -635,6 +653,34 @@ body {
 
 div.testimonials__box:nth-child(3) {
   margin-bottom: 6rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #F67E7E;
+  background-image: url(../assets/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding: 5rem 5rem 6rem 6rem;
+  text-align: center;
+}
+.contact__heading {
+  font-size: 2rem;
+  text-align: center;
+  color: #012F34;
+  line-height: 32px;
+}
+.contact__btn-contact {
+  border: 2px solid #012F34;
+  padding: 0.9rem;
+  border-radius: 24px;
+  background-color: transparent;
+  font-size: 1.125rem;
+  color: #012F34;
+  width: 153px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
