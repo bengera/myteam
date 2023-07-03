@@ -68,9 +68,4 @@
     }
   }
 
-  //remove apple hyperlink
-  a[href^="tel"]{
-    color:inherit;
-    text-decoration:none;
-}
-  
+
