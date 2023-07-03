@@ -560,10 +560,21 @@ body {
 .overview {
   background-color: #012f34;
   position: relative;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 48rem) {
+  .overview {
+    padding: 6.2rem 6.3rem;
+  }
 }
 .overview__left-content {
   padding-top: 80px;
   padding-left: 24px;
+}
+@media only screen and (min-width: 48rem) {
+  .overview__left-content {
+    padding: 0;
+  }
 }
 .overview__right-content {
   display: flex;
@@ -572,18 +583,34 @@ body {
   gap: 3rem;
   padding-bottom: 5rem;
 }
+@media only screen and (min-width: 48rem) {
+  .overview__right-content {
+    margin-top: 4rem;
+  }
+}
 .overview__bg-img {
   position: absolute;
   right: -100px;
 }
+@media only screen and (min-width: 48rem) {
+  .overview__bg-img {
+    top: 0;
+  }
+}
 .overview__heading {
-  background: linear-gradient(#F67E7E, #F67E7E) 0% 0% no-repeat;
+  background: linear-gradient(#f67e7e, #f67e7e) 0% 0% no-repeat;
   background-size: 20% 5px;
   padding-top: 48px;
   color: #FFF;
   font-size: 2rem;
   width: 230px;
   line-height: 32px;
+}
+@media only screen and (min-width: 48rem) {
+  .overview__heading {
+    background-size: 3.1rem 5px;
+    width: 77%;
+  }
 }
 .overview__box-heading {
   color: #F67E7E;
@@ -599,6 +626,20 @@ body {
   max-width: 345px;
   margin: 0 auto;
   line-height: 25px;
+}
+@media only screen and (min-width: 48rem) {
+  .overview__box {
+    flex-direction: row;
+    max-width: 34.8rem;
+    text-align: left;
+    gap: 1.4rem;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 48rem) {
+  .overview__icon-container {
+    margin: auto 0;
+  }
 }
 
 .testimonials {

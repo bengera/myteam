@@ -10,6 +10,7 @@
   top: 0;
   left: 0;
   z-index: -1;
+  
 }
 
 .overlay.show {
@@ -19,12 +20,14 @@
   // background-color: rgb(45, 49, 77);
 }
 
+
 .h1-red {
   color: $color-light-coral;
 }
 
 .header {
   margin-bottom: -4px;
+  
 
   &__heading {
     font-size: clamp(2.5rem, 8vw, 6.25rem);
