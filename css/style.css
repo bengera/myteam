@@ -652,11 +652,22 @@ body {
   padding-top: 144px;
   padding-bottom: 70px;
 }
+@media only screen and (min-width: 48rem) {
+  .testimonials__content {
+    padding: 6.2rem 6.1rem 0 6rem;
+  }
+}
 .testimonials__heading {
   font-size: 2rem;
   line-height: 32px;
   text-align: center;
   margin-bottom: 5rem;
+}
+@media only screen and (min-width: 48rem) {
+  .testimonials__heading {
+    width: 38rem;
+    margin: 0 auto 5rem auto;
+  }
 }
 .testimonials__span {
   color: #79C8C7;
@@ -672,6 +683,11 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+@media only screen and (min-width: 48rem) {
+  .testimonials__box {
+    max-width: 48rem;
+  }
+}
 .testimonials__quote {
   font-size: 0.938rem;
   line-height: 25px;
@@ -681,6 +697,11 @@ body {
   color: #79C8C7;
   font-weight: 1.125rem;
   margin-bottom: 8px;
+}
+@media only screen and (min-width: 48rem) {
+  .testimonials__name {
+    font-size: 1.1rem;
+  }
 }
 .testimonials__job {
   font-size: 0.813rem;
@@ -699,6 +720,12 @@ body {
   left: 40%;
   top: -10%;
   z-index: -1;
+}
+@media only screen and (min-width: 48rem) {
+  .testimonials__quote-svg {
+    left: 43%;
+    top: -18%;
+  }
 }
 
 div.testimonials__box:nth-child(3) {
