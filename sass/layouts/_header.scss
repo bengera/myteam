@@ -37,10 +37,14 @@
     &__content {
       color: $color-white;
       font-weight: 600;
-      max-width: 357px;
+      max-width: 22.3rem;
       margin: 0 auto;
       text-align: center;
       padding: 5rem 0 8rem 0;
+
+      @media only screen and (min-width: $bp-tablet) {
+        max-width: 28rem;
+      }
     }
   
     &__left {

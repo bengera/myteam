@@ -415,10 +415,15 @@ body {
 .header__content {
   color: #FFF;
   font-weight: 600;
-  max-width: 357px;
+  max-width: 22.3rem;
   margin: 0 auto;
   text-align: center;
   padding: 5rem 0 8rem 0;
+}
+@media only screen and (min-width: 48rem) {
+  .header__content {
+    max-width: 28rem;
+  }
 }
 .header__description {
   line-height: 28px;
@@ -439,6 +444,11 @@ body {
   background-position: center center;
   z-index: 100;
 }
+@media only screen and (min-width: 48rem) {
+  .hamburger-menu {
+    display: none;
+  }
+}
 
 .hamburger-menu.active {
   background-image: url(../assets/icon-close.svg);
@@ -447,6 +457,7 @@ body {
 .logo {
   width: 128px;
   height: 32px;
+  align-self: center;
 }
 
 .navigation-container {
@@ -476,13 +487,42 @@ body {
   background-repeat: no-repeat;
   background-position: 220% 90%;
 }
+@media only screen and (min-width: 48rem) {
+  .nav-primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: static;
+    width: auto;
+    width: 100%;
+    background-color: initial;
+    padding: 0;
+    height: auto;
+    background-image: none;
+  }
+}
 .nav-primary__list {
   text-decoration: none;
   list-style: none;
 }
+@media only screen and (min-width: 48rem) {
+  .nav-primary__list {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-self: center;
+    gap: 2rem;
+    margin-left: 3rem;
+  }
+}
 .nav-primary__list-item {
   margin-bottom: 1rem;
   font-size: 18px;
+}
+@media only screen and (min-width: 48rem) {
+  .nav-primary__list-item {
+    margin: 0;
+  }
 }
 .nav-primary__list-link {
   color: white;
@@ -496,6 +536,12 @@ body {
   background-color: transparent;
   cursor: pointer;
   font-size: 18px;
+}
+@media only screen and (min-width: 48rem) {
+  .nav-primary__btn-contact {
+    width: 9.5rem;
+    height: 3rem;
+  }
 }
 
 .hamburger-menu {
