@@ -1,4 +1,5 @@
 @use "../abstracts" as *; 
+@use "../base/global" as *; 
 
 
 //OVERLAY
@@ -29,9 +30,8 @@
     margin-bottom: -4px;
     
     &__heading {
-      font-size: 2.5rem;
-      margin-bottom: 18px;
-      
+      font-size: clamp(2.5rem, 8vw, 6.25rem);
+      margin-bottom: 18px;            
     }
   
     &__content {
@@ -59,3 +59,4 @@
     }
   }
   
+

@@ -409,7 +409,7 @@ body {
   margin-bottom: -4px;
 }
 .header__heading {
-  font-size: 2.5rem;
+  font-size: clamp(2.5rem, 8vw, 6.25rem);
   margin-bottom: 18px;
 }
 .header__content {
