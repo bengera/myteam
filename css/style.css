@@ -809,6 +809,8 @@ div.testimonials__box:nth-child(3) {
   .footer__logo {
     grid-column: 1/1;
     grid-row: 1/1;
+    width: 6rem;
+    height: 1.5rem;
   }
 }
 @media only screen and (min-width: 48rem) {
@@ -844,6 +846,7 @@ div.testimonials__box:nth-child(3) {
     grid-column: 2/2;
     grid-row: 1/3;
     justify-self: end;
+    text-align: end;
   }
 }
 .footer__social-media {
