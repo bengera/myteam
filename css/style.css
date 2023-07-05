@@ -743,11 +743,25 @@ div.testimonials__box:nth-child(3) {
   padding: 5rem 5rem 6rem 6rem;
   text-align: center;
 }
+@media only screen and (min-width: 48rem) {
+  .contact {
+    background-position: 0 90px;
+    padding: 5rem;
+    flex-direction: row;
+    gap: 5.2rem;
+    justify-content: center;
+  }
+}
 .contact__heading {
   font-size: 2rem;
   text-align: center;
   color: #012F34;
   line-height: 32px;
+}
+@media only screen and (min-width: 48rem) {
+  .contact__heading {
+    line-height: normal;
+  }
 }
 .contact__btn-contact {
   border: 2px solid #012F34;
@@ -758,6 +772,12 @@ div.testimonials__box:nth-child(3) {
   color: #012F34;
   width: 153px;
   cursor: pointer;
+}
+@media only screen and (min-width: 48rem) {
+  .contact__btn-contact {
+    height: 3rem;
+    padding: 0;
+  }
 }
 
 .footer {
