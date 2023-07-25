@@ -412,6 +412,12 @@ body {
   font-size: clamp(2.5rem, 8vw, 6.25rem);
   margin-bottom: 18px;
 }
+@media only screen and (min-width: 68.125rem) {
+  .header__heading {
+    margin: 0;
+    font-size: 6.25rem;
+  }
+}
 .header__content {
   color: #FFF;
   font-weight: 600;
@@ -423,6 +429,20 @@ body {
 @media only screen and (min-width: 48rem) {
   .header__content {
     max-width: 28rem;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .header__content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: initial;
+    max-width: 54rem;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .header__content-right {
+    display: flex;
+    align-items: flex-end;
   }
 }
 .header__description {
