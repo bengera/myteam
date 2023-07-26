@@ -20,6 +20,11 @@ html {
   scroll-behavior: smooth;
 }
 
+// .master-container {
+//   max-width: 90rem;
+//   margin: 0 auto;
+// }
+
 .btn-test {
   background-color: $color-light-coral;
 }
@@ -39,3 +44,4 @@ body {
 $bp-desktop: 68.125rem; //1090
 $bp-tablet: 48rem; // 768
 // $bp-desktop:65.625rem // 1050
+
