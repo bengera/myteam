@@ -452,6 +452,14 @@ body {
 @media only screen and (min-width: 68.125rem) {
   .header__description {
     padding-bottom: 0.8rem;
+    font-size: 1.125rem;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .header__description {
+    background: linear-gradient(#79c8c7, #79c8c7) 0% 0% no-repeat;
+    padding-top: 48px;
+    background-size: 3.25rem 5px;
   }
 }
 .header__bottom-img {
