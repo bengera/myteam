@@ -406,7 +406,14 @@ body {
 }
 
 .header {
+  position: relative;
   margin-bottom: -4px;
+}
+@media only screen and (min-width: 68.125rem) {
+  .header {
+    background: url(/assets/bg-pattern-home-1.svg) no-repeat;
+    background-position: -100px 100px;
+  }
 }
 .header__heading {
   font-size: clamp(2.5rem, 8vw, 6.25rem);
@@ -416,6 +423,17 @@ body {
   .header__heading {
     margin: 0;
     font-size: 6.25rem;
+  }
+}
+.header__left-pattern {
+  display: none;
+}
+@media only screen and (min-width: 68.125rem) {
+  .header__left-pattern {
+    display: block;
+    position: absolute;
+    left: -100px;
+    top: 100px;
   }
 }
 .header__content {
@@ -458,7 +476,7 @@ body {
 @media only screen and (min-width: 68.125rem) {
   .header__description {
     background: linear-gradient(#79c8c7, #79c8c7) 0% 0% no-repeat;
-    padding-top: 48px;
+    padding-top: 4.94rem;
     background-size: 3.25rem 5px;
   }
 }
@@ -474,7 +492,7 @@ body {
 }
 @media only screen and (min-width: 68.125rem) {
   .header__bottom-img {
-    width: 19rem;
+    width: 22.3rem;
     margin-left: 60%;
   }
 }
