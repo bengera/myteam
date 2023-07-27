@@ -630,6 +630,12 @@ body {
     padding: 6.2rem 6.3rem;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  .overview {
+    display: flex;
+    justify-content: center;
+  }
+}
 .overview__left-content {
   padding-top: 80px;
   padding-left: 24px;
@@ -673,6 +679,13 @@ body {
   .overview__heading {
     background-size: 3.1rem 5px;
     width: 77%;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .overview__heading {
+    max-width: 27.8rem;
+    font-size: 3rem;
+    line-height: 3rem;
   }
 }
 .overview__box-heading {

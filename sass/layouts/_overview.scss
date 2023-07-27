@@ -10,6 +10,12 @@
     padding: 6.2rem 6.3rem;
   }
 
+  @media only screen and (min-width: $bp-desktop) {
+     display: flex; 
+     justify-content: center;
+    //  padding: 12.38rem 5rem 21.38rem 10.31rem;
+  }
+
   &__left-content {
     padding-top: 80px;
     padding-left: 24px;
@@ -52,6 +58,12 @@
     @media only screen and (min-width: $bp-tablet) {
       background-size: 3.1rem 5px;
       width: 77%;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      max-width: 27.8rem;
+      font-size: 3rem;
+      line-height: 3rem;
     }
   }
 
