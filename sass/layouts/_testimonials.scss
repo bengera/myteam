@@ -15,6 +15,10 @@
     @media only screen and (min-width: $bp-tablet) {
       padding: 6.2rem 6.1rem 0 6rem;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+      padding: 10.31rem 8.75rem;
+        }
   }
 
   &__heading {
@@ -112,9 +116,17 @@
       left: 43%;
       top: -18%;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+      top: -10%;
+        }
   }
 }
 
 div.testimonials__box:nth-child(3) {
   margin-bottom: 6rem;
+
+  @media only screen and (min-width: $bp-desktop) {
+    margin: 0;
+      }
 }
