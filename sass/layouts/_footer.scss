@@ -23,6 +23,13 @@
       grid-template-rows: 1fr 1fr min-content;
       gap: 1rem;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+      grid-template-columns: 1fr 1fr 2fr;
+      max-width: 69.3rem;
+      margin: 0 auto;
+      padding: 3rem 0;
+    }
   }
 
   &__logo {
@@ -49,6 +56,10 @@
       grid-column: 1/1;
       justify-self: start;
       align-self: end;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      align-self: start;
     }
   }
 
@@ -86,6 +97,11 @@
       justify-self: end;
       text-align: end;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+      justify-self: start;
+      text-align: left;
+    }
   }
 
   // &__right-content {
@@ -99,6 +115,12 @@
     @media only screen and (min-width: $bp-tablet) {
       justify-self: start;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+      justify-self: end;
+      grid-column: 3/3;
+      grid-row: 1;
+    }
   }
 
   &__icon {
@@ -106,6 +128,10 @@
       width: 1.5rem;
       height: auto;
       margin-top: 1rem;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      height: 1.5rem;
     }
   }
 

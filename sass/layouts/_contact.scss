@@ -20,6 +20,10 @@
     justify-content: center;
   }
 
+  @media only screen and (min-width: $bp-desktop) {
+    gap: 16.25rem;
+      }
+
   &__left-content {
   }
 
@@ -35,6 +39,10 @@
     @media only screen and (min-width: $bp-tablet) {
       line-height: normal;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+      font-size: 3rem;
+        }
   }
 
   &__btn-contact {

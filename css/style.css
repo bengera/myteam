@@ -870,6 +870,11 @@ div.testimonials__box:nth-child(3) {
     justify-content: center;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  .contact {
+    gap: 16.25rem;
+  }
+}
 .contact__heading {
   font-size: 2rem;
   text-align: center;
@@ -879,6 +884,11 @@ div.testimonials__box:nth-child(3) {
 @media only screen and (min-width: 48rem) {
   .contact__heading {
     line-height: normal;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .contact__heading {
+    font-size: 3rem;
   }
 }
 .contact__btn-contact {
@@ -923,6 +933,14 @@ div.testimonials__box:nth-child(3) {
     gap: 1rem;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  .footer__content {
+    grid-template-columns: 1fr 1fr 2fr;
+    max-width: 69.3rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+}
 @media only screen and (min-width: 48rem) {
   .footer__logo {
     grid-column: 1/1;
@@ -936,6 +954,11 @@ div.testimonials__box:nth-child(3) {
     grid-column: 1/1;
     justify-self: start;
     align-self: end;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .footer__nav {
+    align-self: start;
   }
 }
 .footer__nav-list {
@@ -967,6 +990,12 @@ div.testimonials__box:nth-child(3) {
     text-align: end;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  .footer__address {
+    justify-self: start;
+    text-align: left;
+  }
+}
 .footer__social-media {
   display: flex;
   gap: 1rem;
@@ -977,11 +1006,23 @@ div.testimonials__box:nth-child(3) {
     justify-self: start;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  .footer__social-media {
+    justify-self: end;
+    grid-column: 3/3;
+    grid-row: 1;
+  }
+}
 @media only screen and (min-width: 48rem) {
   .footer__icon {
     width: 1.5rem;
     height: auto;
     margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .footer__icon {
+    height: 1.5rem;
   }
 }
 .footer__copyright {
