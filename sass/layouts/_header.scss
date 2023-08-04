@@ -117,4 +117,18 @@
       margin-left: 60%;
     }
   }
+
+  &__bottom-img-about{
+    width: 12.5rem;
+    position: absolute;
+bottom: -90px;
+right: -120px;
+  }
+}
+
+//ABOUT
+
+.content-about {
+  position: relative;
+  padding: 5rem 0 14rem 0;
 }

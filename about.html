@@ -6,23 +6,44 @@
   <meta name="description" content="myteam multi-page website challenge by Frontend Mentor.">
   <meta name="keywords" content="multi-page, myteam, challenge, ben, mobile-first">
   <meta name="author" content="Ben Geraghty">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/navigation.js" defer></script>
+  <script src="js/section-contact.js" defer></script>
   <script defer src="js/main.js"></script>
+
   <title>mmyteam - About</title>
 
 </head>
 <body>
 
-  <button class="btn-test">
-    About page
-  </button>
+  <div class="overlay"></div>
+
+  <navigation-component></navigation-component>
+
 
 <main>
 
-  
-  
+  <header class="header">
+  <!-- <img src="./assets/bg-pattern-home-1.svg" alt="" class="header__left-pattern"> -->
+  <div class="header__content content-about">
+       <div class="header__content-left">
+      <h1 class="header__heading">About</span></h1>
+    </div>
+    <div class="header__content-right">
+      <p class="header__description">
+        Finding the right people and building high performing teams can be
+        hard. Most companies aren’t tapping into the abundance of global
+        talent. We’re about to change that.
+      </p>
+    </div>
+  </div>
+  <img class="header__bottom-img-about" src="./assets/bg-pattern-about-1-mobile-nav-1.svg" alt="bg-pattern-mobile-1">
+</header>
 
+  
+  
+<contact-component></contact-component>
 </main>
  
 
