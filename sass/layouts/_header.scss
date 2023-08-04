@@ -30,7 +30,7 @@
     background: url(/assets/bg-pattern-home-1.svg) no-repeat;
     background-position: -100px 100px;
   }
-  
+
   &__heading {
     font-size: clamp(2.5rem, 8vw, 6.25rem);
     margin-bottom: 18px;
@@ -38,7 +38,6 @@
     @media only screen and (min-width: $bp-desktop) {
       margin: 0;
       font-size: 6.25rem;
-      
     }
   }
 
@@ -72,14 +71,10 @@
       max-width: 65rem;
       margin: 0 auto;
     }
-
-    
   }
 
   &__left {
   }
-
-  
 
   &__content-right {
     @media only screen and (min-width: $bp-desktop) {
@@ -118,11 +113,11 @@
     }
   }
 
-  &__bottom-img-about{
+  &__bottom-img-about {
     width: 12.5rem;
     position: absolute;
-bottom: -90px;
-right: -120px;
+    bottom: -90px;
+    right: -120px;
   }
 }
 
@@ -131,4 +126,12 @@ right: -120px;
 .content-about {
   position: relative;
   padding: 5rem 0 14rem 0;
+}
+
+.header-about {
+  z-index: -1;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 75vw 45vh;
+  background-image: url(../assets/bg-pattern-about-1-mobile-nav-1.svg);
 }
