@@ -21,16 +21,30 @@
     text-align: center;
     margin: 5.5rem 0 3rem 0;
   }
+
+  &__boxes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.25rem;
+  }
 }
 
 .box {
-//   width: 20.4rem;
-  height: 15.8rem;
+  padding: 2rem 1rem;
+  height: 15rem;
   background-color: $color-very-dark-green;
-  padding: 2rem 7.2rem 7.8rem 7.2rem;
   text-align: center;
 
   &__inner-content {
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 10rem;
+    margin: 0 auto;
   }
 
   &__avatar {
@@ -53,12 +67,14 @@
   }
 
   &__cross {
+    position: absolute;
+    bottom: -80px;
     width: 3.5rem;
     height: 3.5rem;
     border: 2px solid $color-light-coral;
     border-radius: 50%;
     background-color: $color-light-coral;
     padding: 1.1rem;
-    margin-top: 1rem;
+    // margin-top: 2rem;
   }
 }
