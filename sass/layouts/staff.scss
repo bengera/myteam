@@ -2,21 +2,63 @@
 @use "../base/global" as *;
 
 .staff {
-    background: $color-sacramento-state-green;
+  background: $color-sacramento-state-green;
 
   &__content {
     padding: 1.5rem;
     position: relative;
-   background-image: url(../assets/bg-pattern-about-2-contact-1.svg), url(../assets/bg-pattern-home-4-about-3.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: -100px -95px, bottom right;
+    background-image: url(../assets/bg-pattern-about-2-contact-1.svg),
+      url(../assets/bg-pattern-home-4-about-3.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -100px -95px, bottom right;
 
-//   height: 50rem;
+    //   height: 50rem;
   }
 
   &__heading {
     font-size: 2rem;
     color: $color-white;
     text-align: center;
+    margin: 5.5rem 0 3rem 0;
+  }
+}
+
+.box {
+//   width: 20.4rem;
+  height: 15.8rem;
+  background-color: $color-very-dark-green;
+  padding: 2rem 7.2rem 7.8rem 7.2rem;
+  text-align: center;
+
+  &__inner-content {
+  }
+
+  &__avatar {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 2px solid $color-rapture-blue;
+    margin-bottom: 1rem;
+  }
+
+  &__name {
+    font-size: 1.125rem;
+    color: $color-rapture-blue;
+    margin-bottom: 0.3rem;
+  }
+
+  &__title {
+    font-style: italic;
+    color: $color-white;
+  }
+
+  &__cross {
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 2px solid $color-light-coral;
+    border-radius: 50%;
+    background-color: $color-light-coral;
+    padding: 1.1rem;
+    margin-top: 1rem;
   }
 }

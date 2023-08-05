@@ -883,6 +883,39 @@ div.testimonials__box:nth-child(3) {
   font-size: 2rem;
   color: #FFF;
   text-align: center;
+  margin: 5.5rem 0 3rem 0;
+}
+
+.box {
+  height: 15.8rem;
+  background-color: #012F34;
+  padding: 2rem 7.2rem 7.8rem 7.2rem;
+  text-align: center;
+}
+.box__avatar {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 2px solid #79C8C7;
+  margin-bottom: 1rem;
+}
+.box__name {
+  font-size: 1.125rem;
+  color: #79C8C7;
+  margin-bottom: 0.3rem;
+}
+.box__title {
+  font-style: italic;
+  color: #FFF;
+}
+.box__cross {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 2px solid #F67E7E;
+  border-radius: 50%;
+  background-color: #F67E7E;
+  padding: 1.1rem;
+  margin-top: 1rem;
 }
 
 .contact {
