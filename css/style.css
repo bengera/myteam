@@ -902,7 +902,7 @@ div.testimonials__box:nth-child(3) {
   flex-direction: column;
   align-items: center;
   position: relative;
-  max-width: 10rem;
+  max-width: 15rem;
   margin: 0 auto;
 }
 .box__avatar {
