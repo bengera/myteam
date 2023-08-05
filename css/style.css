@@ -931,6 +931,25 @@ div.testimonials__box:nth-child(3) {
   background-color: #F67E7E;
   padding: 1.1rem;
 }
+.box__quote {
+  color: #FFF;
+  line-height: 1.5625rem;
+}
+.box__social-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.box__cross.aqua {
+  background-color: #79C8C7;
+  border: 0;
+  padding: 1.3rem;
+}
+
+.box.quote-box {
+  margin-bottom: 7.25rem;
+  background-color: #002529;
+}
 
 .contact {
   display: flex;

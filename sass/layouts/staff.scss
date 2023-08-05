@@ -77,4 +77,29 @@
     padding: 1.1rem;
     // margin-top: 2rem;
   }
+
+  &__quote{
+    color: $color-white;
+    line-height: 1.5625rem
+    
+  }
+ 
+  &__social-container{
+    display: flex;
+    gap:1rem;
+    margin-top: 1rem;
+  }
+  
+  &__cross.aqua {
+    background-color: $color-rapture-blue;
+    border: 0;
+    padding: 1.3rem;
+    
+  }
 }
+
+.box.quote-box{
+    margin-bottom: 7.25rem;
+    background-color: $color-dark-green;
+}
+
