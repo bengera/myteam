@@ -870,7 +870,19 @@ div.testimonials__box:nth-child(3) {
 }
 
 .staff {
-  background-color: #012f34;
+  background: #004047;
+}
+.staff__content {
+  padding: 1.5rem;
+  position: relative;
+  background-image: url(../assets/bg-pattern-about-2-contact-1.svg), url(../assets/bg-pattern-home-4-about-3.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -100px -95px, bottom right;
+}
+.staff__heading {
+  font-size: 2rem;
+  color: #FFF;
+  text-align: center;
 }
 
 .contact {
