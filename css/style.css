@@ -961,7 +961,7 @@ div.testimonials__box:nth-child(3) {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding: 3rem;
+  padding: 5rem 3rem;
 }
 .clients__heading {
   color: #FFF;
@@ -975,8 +975,27 @@ div.testimonials__box:nth-child(3) {
   align-content: center;
 }
 .clients__logo {
-  width: 9.1rem;
   align-self: center;
+}
+
+img.clients__logo:nth-child(1) {
+  width: 9.2rem;
+}
+
+img.clients__logo:nth-child(2) {
+  width: 13.1rem;
+}
+
+img.clients__logo:nth-child(3) {
+  width: 12rem;
+}
+
+img.clients__logo:nth-child(4) {
+  width: 9.2rem;
+}
+
+img.clients__logo:nth-child(5) {
+  width: 6.2rem;
 }
 
 .contact {
