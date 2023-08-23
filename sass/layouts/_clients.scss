@@ -3,7 +3,7 @@
 
 .clients {
   background-color: $color-very-dark-green;
-  background-image: url(/assets/bg-pattern-about-4.svg);
+  background-image: url(../assets/bg-pattern-about-4.svg);
   background-repeat: no-repeat;
   background-position: -100px -90px;
 
@@ -11,13 +11,14 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    padding: 5rem 3rem;
+    // padding: 5rem 3rem;
   }
 
   &__heading {
     color: $color-white;
     font-size: 2rem;
     text-align: center;
+    margin-top: 6rem
   }
 
   &__list {
@@ -25,6 +26,7 @@
     flex-direction: column;
     gap: 3.56rem;
     align-content: center;
+    padding: 0 3rem 5rem 3rem;
   }
 
   &__logo {

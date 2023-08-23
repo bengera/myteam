@@ -953,7 +953,7 @@ div.testimonials__box:nth-child(3) {
 
 .clients {
   background-color: #012F34;
-  background-image: url(/assets/bg-pattern-about-4.svg);
+  background-image: url(../assets/bg-pattern-about-4.svg);
   background-repeat: no-repeat;
   background-position: -100px -90px;
 }
@@ -961,18 +961,19 @@ div.testimonials__box:nth-child(3) {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding: 5rem 3rem;
 }
 .clients__heading {
   color: #FFF;
   font-size: 2rem;
   text-align: center;
+  margin-top: 6rem;
 }
 .clients__list {
   display: flex;
   flex-direction: column;
   gap: 3.56rem;
   align-content: center;
+  padding: 0 3rem 5rem 3rem;
 }
 .clients__logo {
   align-self: center;
