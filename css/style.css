@@ -892,6 +892,11 @@ div.testimonials__box:nth-child(3) {
   background-repeat: no-repeat, no-repeat;
   background-position: -90px -100px, bottom right;
 }
+@media only screen and (min-width: 48rem) {
+  .staff {
+    background-position: -60px 0, bottom right;
+  }
+}
 .staff__content {
   padding: 1.5rem;
   position: relative;
@@ -906,6 +911,15 @@ div.testimonials__box:nth-child(3) {
   display: flex;
   flex-direction: column;
   gap: 3.25rem;
+}
+@media only screen and (min-width: 48rem) {
+  .staff__boxes-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.75rem 1rem;
+    max-width: 35rem;
+    margin: 0 auto;
+  }
 }
 
 .box {
@@ -963,9 +977,20 @@ div.testimonials__box:nth-child(3) {
   padding: 1.3rem;
 }
 
+@media only screen and (min-width: 48rem) {
+  div.box:nth-child(5) {
+    grid-column: 2;
+  }
+}
 .box.quote-box {
   margin-bottom: 7.25rem;
   background-color: #002529;
+}
+@media only screen and (min-width: 48rem) {
+  .box.quote-box {
+    grid-column: 1;
+    grid-row: 3;
+  }
 }
 
 .clients {
