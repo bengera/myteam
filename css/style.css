@@ -467,6 +467,12 @@ body {
 .header__description {
   line-height: 28px;
 }
+@media only screen and (min-width: 48rem) {
+  .header__description {
+    line-height: 1.75rem;
+    font-size: 0.93rem;
+  }
+}
 @media only screen and (min-width: 68.125rem) {
   .header__description {
     padding-bottom: 0.8rem;
@@ -515,6 +521,11 @@ body {
   background-position: bottom -100px right -90px;
   background-image: url(../assets/bg-pattern-about-1-mobile-nav-1.svg);
 }
+@media only screen and (min-width: 48rem) {
+  .header-about {
+    background-position: bottom 0px right -90px;
+  }
+}
 
 .hamburger-menu {
   background-color: transparent;
@@ -546,7 +557,12 @@ body {
 .navigation-container {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 3rem 2rem 2rem 2rem;
+}
+@media only screen and (min-width: 48rem) {
+  .navigation-container {
+    padding: 4.63rem 2rem 2rem 2rem;
+  }
 }
 @media only screen and (min-width: 68.125rem) {
   .navigation-container {
@@ -611,6 +627,7 @@ body {
 @media only screen and (min-width: 48rem) {
   .nav-primary__list-item {
     margin: 0;
+    font-size: 1.125rem;
   }
 }
 .nav-primary__list-link {

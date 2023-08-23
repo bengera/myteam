@@ -30,7 +30,11 @@
 .navigation-container {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 3rem 2rem 2rem 2rem;
+
+  @media only screen and (min-width: $bp-tablet) {
+    padding: 4.63rem 2rem 2rem 2rem;
+    }
 
   @media only screen and (min-width: $bp-desktop) {
     max-width: 68rem;
@@ -92,6 +96,7 @@
 
     @media only screen and (min-width: $bp-tablet) {
       margin: 0;
+      font-size: 1.125rem;
     }
   }
 
