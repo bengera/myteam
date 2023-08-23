@@ -871,13 +871,13 @@ div.testimonials__box:nth-child(3) {
 
 .staff {
   background: #004047;
+  background-image: url(../assets/bg-pattern-about-2-contact-1.svg), url(../assets/bg-pattern-home-4-about-3.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -90px -100px, bottom right;
 }
 .staff__content {
   padding: 1.5rem;
   position: relative;
-  background-image: url(../assets/bg-pattern-about-2-contact-1.svg), url(../assets/bg-pattern-home-4-about-3.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: -100px -95px, bottom right;
 }
 .staff__heading {
   font-size: 2rem;
@@ -949,6 +949,34 @@ div.testimonials__box:nth-child(3) {
 .box.quote-box {
   margin-bottom: 7.25rem;
   background-color: #002529;
+}
+
+.clients {
+  background-color: #012F34;
+  background-image: url(/assets/bg-pattern-about-4.svg);
+  background-repeat: no-repeat;
+  background-position: -100px -90px;
+}
+.clients__content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 3rem;
+}
+.clients__heading {
+  color: #FFF;
+  font-size: 2rem;
+  text-align: center;
+}
+.clients__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3.56rem;
+  align-content: center;
+}
+.clients__logo {
+  width: 9.1rem;
+  align-self: center;
 }
 
 .contact {
