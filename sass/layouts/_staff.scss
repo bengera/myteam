@@ -24,6 +24,10 @@
     color: $color-white;
     text-align: center;
     margin: 5.5rem 0 3rem 0;
+
+    @media only screen and (min-width: $bp-desktop) {
+      font-size: 3rem;
+           }
   }
 
   &__boxes-container {
@@ -38,6 +42,14 @@
       max-width: 35rem;
       margin: 0 auto;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      max-width: 65rem;
+      gap: 4.75rem 1.87rem;
+      margin-bottom: 8.75rem;
+    }
   }
 }
 
@@ -47,8 +59,11 @@
   background-color: $color-very-dark-green;
   text-align: center;
 
-  &__inner-content {
+  @media only screen and (min-width: $bp-desktop) {
+    width: 21rem;
+         }
 
+  &__inner-content {
   }
 
   &__content {
@@ -62,7 +77,7 @@
     @media only screen and (min-width: $bp-tablet) {
       width: 17rem;
       max-width: none;
-       }
+    }
   }
 
   &__avatar {
@@ -114,7 +129,7 @@
   }
 }
 
-// Tablet queries
+// Queries
 @media only screen and (min-width: $bp-tablet) {
   div.box:nth-child(5) {
     grid-column: 2;
@@ -128,5 +143,11 @@
   @media only screen and (min-width: $bp-tablet) {
     grid-column: 1;
     grid-row: 3;
+  }
+
+  @media only screen and (min-width: $bp-desktop) {
+    grid-column: 3;
+    grid-row: 2;
+    margin-bottom: 0;
   }
 }
