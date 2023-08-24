@@ -1010,12 +1010,23 @@ div.testimonials__box:nth-child(3) {
   text-align: center;
   margin-top: 6rem;
 }
+@media only screen and (min-width: 48rem) {
+  .clients__heading {
+    font-size: 2.5rem;
+  }
+}
 .clients__list {
   display: flex;
   flex-direction: column;
   gap: 3.56rem;
   align-content: center;
   padding: 0 3rem 5rem 3rem;
+}
+@media only screen and (min-width: 48rem) {
+  .clients__list {
+    flex-direction: row;
+    margin: 0 auto;
+  }
 }
 .clients__logo {
   align-self: center;
@@ -1024,21 +1035,46 @@ div.testimonials__box:nth-child(3) {
 img.clients__logo:nth-child(1) {
   width: 9.2rem;
 }
+@media only screen and (min-width: 48rem) {
+  img.clients__logo:nth-child(1) {
+    width: 6.2rem;
+  }
+}
 
 img.clients__logo:nth-child(2) {
   width: 13.1rem;
+}
+@media only screen and (min-width: 48rem) {
+  img.clients__logo:nth-child(2) {
+    width: 7.2rem;
+  }
 }
 
 img.clients__logo:nth-child(3) {
   width: 12rem;
 }
+@media only screen and (min-width: 48rem) {
+  img.clients__logo:nth-child(3) {
+    width: 6.2rem;
+  }
+}
 
 img.clients__logo:nth-child(4) {
   width: 9.2rem;
 }
+@media only screen and (min-width: 48rem) {
+  img.clients__logo:nth-child(4) {
+    width: 6.2rem;
+  }
+}
 
 img.clients__logo:nth-child(5) {
   width: 6.2rem;
+}
+@media only screen and (min-width: 48rem) {
+  img.clients__logo:nth-child(5) {
+    width: 6.2rem;
+  }
 }
 
 .contact {
