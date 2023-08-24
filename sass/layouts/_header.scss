@@ -81,6 +81,8 @@
       display: flex;
       align-items: flex-end;
     }
+
+    
   }
 
   &__description {
@@ -131,6 +133,8 @@
 .content-about {
   position: relative;
   padding: 5rem 0 14rem 0;
+
+  
 }
 
 .header-about {
@@ -142,5 +146,25 @@
 
   @media only screen and (min-width: $bp-tablet) {
     background-position: bottom 0px right -90px;
+     }
+
+    
+}
+
+.header__description.about{
+  @media only screen and (min-width: $bp-desktop) {
+    width: 45.6rem;
+    padding-top: 2.5rem;
+    background: linear-gradient(#F67E7E, #F67E7E) 0% 0% no-repeat;
+    background-size: 3.25rem 5px;
+  }
+    
+  }
+
+
+.header__heading.about {
+  @media only screen and (min-width: $bp-desktop) {
+    margin-top: 2.5rem;
+    font-size: 4.5rem;
      }
 }
