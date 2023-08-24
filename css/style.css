@@ -936,6 +936,12 @@ div.testimonials__box:nth-child(3) {
   max-width: 15rem;
   margin: 0 auto;
 }
+@media only screen and (min-width: 48rem) {
+  .box__content {
+    width: 17rem;
+    max-width: none;
+  }
+}
 .box__avatar {
   width: 6rem;
   height: 6rem;
@@ -1073,7 +1079,7 @@ img.clients__logo:nth-child(5) {
 }
 @media only screen and (min-width: 48rem) {
   img.clients__logo:nth-child(5) {
-    width: 6.2rem;
+    width: 5.2rem;
   }
 }
 
