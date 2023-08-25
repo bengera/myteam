@@ -7,11 +7,15 @@
   background-repeat: no-repeat;
   background-position: -100px -90px;
 
+  @media only screen and (min-width: $bp-desktop) {
+    background-position: 0% 0%;
+         }
+
   &__content {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    // padding: 5rem 3rem;
+    
   }
 
   &__heading {
@@ -54,6 +58,10 @@ img.clients__logo:nth-child(1) {
     @media only screen and (min-width: $bp-tablet) {
     width: 6.2rem;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+    width: 10.3rem;
+    }
   }
 
   img.clients__logo:nth-child(2) {
@@ -61,6 +69,10 @@ img.clients__logo:nth-child(1) {
     @media only screen and (min-width: $bp-tablet) {
       width: 7.2rem;
       }
+
+      @media only screen and (min-width: $bp-desktop) {
+        width: 10.3rem;
+        }
   }
 
   img.clients__logo:nth-child(3) {
@@ -68,6 +80,10 @@ img.clients__logo:nth-child(1) {
     @media only screen and (min-width: $bp-tablet) {
       width: 6.2rem;
       }
+
+      @media only screen and (min-width: $bp-desktop) {
+        width: 10.3rem;
+        }
   }
 
   img.clients__logo:nth-child(4) {
@@ -75,6 +91,10 @@ img.clients__logo:nth-child(1) {
     @media only screen and (min-width: $bp-tablet) {
       width: 6.2rem;
       }
+
+      @media only screen and (min-width: $bp-desktop) {
+        width: 10.3rem;
+        }
   }
 
   img.clients__logo:nth-child(5) {
@@ -82,5 +102,9 @@ img.clients__logo:nth-child(1) {
     @media only screen and (min-width: $bp-tablet) {
       width: 5.2rem;
       }
+
+      @media only screen and (min-width: $bp-desktop) {
+        width: 5.3rem;
+        }
   }
   

@@ -10,6 +10,10 @@
     margin: 0;
   }
 
+  @media only screen and (min-width: $bp-desktop) {
+    padding: 0;
+         }
+
   &__content {
     display: flex;
     flex-direction: column;
@@ -25,10 +29,10 @@
     }
 
     @media only screen and (min-width: $bp-desktop) {
-      grid-template-columns: 1fr 1fr 2fr;
+      grid-template-columns: 0.8fr 1fr 2fr;
       max-width: 69.3rem;
       margin: 0 auto;
-      padding: 3rem 0;
+      padding: 2.5rem 0;
     }
   }
 
@@ -59,7 +63,7 @@
     }
 
     @media only screen and (min-width: $bp-desktop) {
-      align-self: start;
+      align-self: center;
     }
   }
 
@@ -101,6 +105,7 @@
     @media only screen and (min-width: $bp-desktop) {
       justify-self: start;
       text-align: left;
+      line-height: 1.56;
     }
   }
 

@@ -1047,6 +1047,11 @@ div.testimonials__box:nth-child(3) {
   background-repeat: no-repeat;
   background-position: -100px -90px;
 }
+@media only screen and (min-width: 68.125rem) {
+  .clients {
+    background-position: 0% 0%;
+  }
+}
 .clients__content {
   display: flex;
   flex-direction: column;
@@ -1088,6 +1093,11 @@ img.clients__logo:nth-child(1) {
     width: 6.2rem;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  img.clients__logo:nth-child(1) {
+    width: 10.3rem;
+  }
+}
 
 img.clients__logo:nth-child(2) {
   width: 13.1rem;
@@ -1095,6 +1105,11 @@ img.clients__logo:nth-child(2) {
 @media only screen and (min-width: 48rem) {
   img.clients__logo:nth-child(2) {
     width: 7.2rem;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  img.clients__logo:nth-child(2) {
+    width: 10.3rem;
   }
 }
 
@@ -1106,6 +1121,11 @@ img.clients__logo:nth-child(3) {
     width: 6.2rem;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  img.clients__logo:nth-child(3) {
+    width: 10.3rem;
+  }
+}
 
 img.clients__logo:nth-child(4) {
   width: 9.2rem;
@@ -1115,6 +1135,11 @@ img.clients__logo:nth-child(4) {
     width: 6.2rem;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  img.clients__logo:nth-child(4) {
+    width: 10.3rem;
+  }
+}
 
 img.clients__logo:nth-child(5) {
   width: 6.2rem;
@@ -1122,6 +1147,11 @@ img.clients__logo:nth-child(5) {
 @media only screen and (min-width: 48rem) {
   img.clients__logo:nth-child(5) {
     width: 5.2rem;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  img.clients__logo:nth-child(5) {
+    width: 5.3rem;
   }
 }
 
@@ -1193,6 +1223,11 @@ img.clients__logo:nth-child(5) {
     margin: 0;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  .footer {
+    padding: 0;
+  }
+}
 .footer__content {
   display: flex;
   flex-direction: column;
@@ -1210,10 +1245,10 @@ img.clients__logo:nth-child(5) {
 }
 @media only screen and (min-width: 68.125rem) {
   .footer__content {
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 0.8fr 1fr 2fr;
     max-width: 69.3rem;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 2.5rem 0;
   }
 }
 @media only screen and (min-width: 48rem) {
@@ -1233,7 +1268,7 @@ img.clients__logo:nth-child(5) {
 }
 @media only screen and (min-width: 68.125rem) {
   .footer__nav {
-    align-self: start;
+    align-self: center;
   }
 }
 .footer__nav-list {
@@ -1269,6 +1304,7 @@ img.clients__logo:nth-child(5) {
   .footer__address {
     justify-self: start;
     text-align: left;
+    line-height: 1.56;
   }
 }
 .footer__social-media {
