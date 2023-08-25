@@ -650,6 +650,11 @@ body {
   color: white;
   text-decoration: none;
 }
+@media only screen and (min-width: 68.125rem) {
+  .nav-primary__list-link:hover {
+    color: #F67E7E;
+  }
+}
 .nav-primary__btn-contact {
   border-radius: 30px;
   border: 2px solid white;
@@ -662,6 +667,12 @@ body {
 @media only screen and (min-width: 48rem) {
   .nav-primary__btn-contact {
     width: 9.5rem;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .nav-primary__btn-contact:hover {
+    color: #000;
+    background-color: #FFF;
   }
 }
 
@@ -1286,6 +1297,11 @@ img.clients__logo:nth-child(5) {
 .footer__nav-link {
   color: white;
   text-decoration: none;
+}
+@media only screen and (min-width: 68.125rem) {
+  .footer__nav-link:hover {
+    color: #F67E7E;
+  }
 }
 .footer__address {
   font-style: normal;

@@ -45,16 +45,6 @@
     }
   }
 
-  // &__left-content {
-  //   display: flex;
-  //   flex-direction: column;
-  //   gap: 2rem;
-  // }
-
-  // &__col-1 {
-
-  // }
-
   &__nav {
     @media only screen and (min-width: $bp-tablet) {
       grid-column: 1/1;
@@ -85,10 +75,14 @@
   &__nav-link {
     color: white;
     text-decoration: none;
-  }
 
-  // &__col-2 {
-  // }
+    &:hover {
+      @media only screen and (min-width: $bp-desktop) {
+        color:$color-light-coral;
+      }
+  }
+}
+
 
   &__address {
     font-style: normal;
@@ -109,8 +103,6 @@
     }
   }
 
-  // &__right-content {
-  // }
 
   &__social-media {
     display: flex;
