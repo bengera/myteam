@@ -385,6 +385,14 @@ body {
   margin-bottom: 24px;
 }
 
+svg {
+  cursor: pointer;
+}
+
+svg:hover path {
+  fill: #F67E7E;
+}
+
 .overlay {
   position: fixed;
   background-color: transparent;
@@ -1013,6 +1021,13 @@ div.testimonials__box:nth-child(3) {
   border-radius: 50%;
   background-color: #F67E7E;
   padding: 1.1rem;
+  cursor: pointer;
+}
+@media only screen and (min-width: 68.125rem) {
+  .box__cross:hover {
+    background-color: #79C8C7;
+    border-color: #79C8C7;
+  }
 }
 .box__quote {
   color: #FFF;
@@ -1027,6 +1042,12 @@ div.testimonials__box:nth-child(3) {
   background-color: #79C8C7;
   border: 0;
   padding: 1.3rem;
+}
+@media only screen and (min-width: 68.125rem) {
+  .box__cross.aqua:hover {
+    background-color: #F67E7E;
+    border-color: #F67E7E;
+  }
 }
 
 @media only screen and (min-width: 48rem) {
@@ -1221,6 +1242,12 @@ img.clients__logo:nth-child(5) {
   .contact__btn-contact {
     height: 3rem;
     padding: 0;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .contact__btn-contact:hover {
+    color: #FFF;
+    background-color: #012F34;
   }
 }
 

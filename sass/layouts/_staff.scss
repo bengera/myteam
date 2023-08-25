@@ -15,7 +15,6 @@
   &__content {
     padding: 1.5rem;
     position: relative;
-
    
   }
 
@@ -108,6 +107,14 @@
     border-radius: 50%;
     background-color: $color-light-coral;
     padding: 1.1rem;
+    cursor: pointer;
+
+    &:hover {
+      @media only screen and (min-width: $bp-desktop) {
+        background-color:$color-rapture-blue;
+        border-color: $color-rapture-blue;
+      }
+    }
     
   }
 
@@ -126,6 +133,14 @@
     background-color: $color-rapture-blue;
     border: 0;
     padding: 1.3rem;
+    
+
+    &:hover {
+      @media only screen and (min-width: $bp-desktop) {
+        background-color:$color-light-coral;
+        border-color: $color-light-coral;
+      }
+    }
   }
 }
 

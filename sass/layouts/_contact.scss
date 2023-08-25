@@ -59,5 +59,12 @@
       height: 3rem;
       padding: 0;
     }
+
+    &:hover {
+      @media only screen and (min-width: $bp-desktop) {
+        color: $color-white;
+        background-color: $color-very-dark-green;
+      }
+    }
   }
 }
