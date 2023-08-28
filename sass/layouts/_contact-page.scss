@@ -3,9 +3,9 @@
 
 .contact-page {
   padding: 1.5rem;
-  &__left-contact {
-  }
-
+}
+// LEFT CONTENT
+.left-content {
   &__headings-container {
     text-align: center;
     display: flex;
@@ -44,6 +44,44 @@
     align-self: center;
     max-width: 14.5rem;
     line-height: 1.75em;
-    
   }
 }
+
+// RIGHT-CONTENT
+.right-content {
+  margin-top: 4rem;
+}
+
+// FORM
+.form {
+  // border: 2px solid red;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  border-bottom-color: rgb(255, 255, 255, .5);
+  border-top: 0;
+  border-left: 0;
+  border-right:0;
+  color: $color-white;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5625rem;
+  letter-spacing: -0.00719rem;
+}
+
+.btn-submit {
+    margin-top: 1.5rem;
+    width: 7rem;
+    background-color: $color-white;
+    color: $color-sacramento-state-green;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 0;
+    
+}
+

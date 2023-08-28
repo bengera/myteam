@@ -1190,19 +1190,20 @@ img.clients__logo:nth-child(5) {
 .contact-page {
   padding: 1.5rem;
 }
-.contact-page__headings-container {
+
+.left-content__headings-container {
   text-align: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 3rem;
   gap: 1rem;
 }
-.contact-page__heading {
+.left-content__heading {
   margin: 0;
   font-size: 2.5rem;
   color: #FFF;
 }
-.contact-page__description {
+.left-content__description {
   font-size: 2rem;
   font-weight: 700;
   color: #F67E7E;
@@ -1222,6 +1223,37 @@ img.clients__logo:nth-child(5) {
   align-self: center;
   max-width: 14.5rem;
   line-height: 1.75em;
+}
+
+.right-content {
+  margin-top: 4rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  color: #FFF;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5625rem;
+  letter-spacing: -0.00719rem;
+}
+
+.btn-submit {
+  margin-top: 1.5rem;
+  width: 7rem;
+  background-color: #FFF;
+  color: #004047;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  border: 0;
 }
 
 .contact {
