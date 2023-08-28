@@ -16,7 +16,8 @@ class Navigation extends HTMLElement {
        <li class="nav-primary__list-item"><a href="./index.html" class="nav-primary__list-link">home</a></li>
        <li class="nav-primary__list-item"><a href="./about.html" class="nav-primary__list-link">about</a></li>
      </ul>
-     <button class="nav-primary__btn-contact">contact us</button>
+     <a href="./contact.html" class="nav-primary__btn-contact">contact us</a>
+     
      <!-- <img src="/assets/bg-pattern-about-1-mobile-nav-1.svg" alt=""> -->
     </nav>
    

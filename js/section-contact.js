@@ -11,7 +11,8 @@ class Contact extends HTMLElement {
   <h2 class="contact__heading">Ready to get started?</h2>
 </div>
 <div class="contact__right-content">
-  <button class="contact__btn-contact">contact us</button>
+<a href="./contact.html" class="contact__btn-contact">contact us</a>
+  
 </div>
 </section>
     `

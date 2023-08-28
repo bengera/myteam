@@ -9,7 +9,7 @@
   background-image: url(../assets/bg-pattern-home-6-about-5.svg);
   background-repeat: no-repeat;
   background-position: bottom left;
-  padding: 5rem 5rem 6rem 6rem;
+  padding: 5rem 5rem 7rem 6rem;
   text-align: center;
 
   @media only screen and (min-width: $bp-tablet) {
@@ -28,6 +28,11 @@
   }
 
   &__right-content {
+    margin-top: 0.7rem;
+
+    @media only screen and (min-width: $bp-tablet) {
+      margin-top: 1.1rem;
+    }
   }
 
   &__heading {
@@ -35,6 +40,7 @@
     text-align: center;
     color: $color-very-dark-green;
     line-height: 32px;
+    margin-bottom: 0.5rem;
 
     @media only screen and (min-width: $bp-tablet) {
       line-height: normal;
@@ -47,18 +53,20 @@
 
   &__btn-contact {
     border: 2px solid $color-very-dark-green;
-    padding: 0.9rem;
-    border-radius: 24px;
+    padding: 0.8rem 2rem;
+
+border-radius: 1.5rem;
+text-decoration: none;
     background-color: transparent;
     font-size: 1.125rem;
     color: $color-very-dark-green;
     width: 153px;
     cursor: pointer;
 
-    @media only screen and (min-width: $bp-tablet) {
-      height: 3rem;
-      padding: 0;
-    }
+    // @media only screen and (min-width: $bp-tablet) {
+    //   height: 3rem;
+    //   padding: 0;
+    // }
 
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
