@@ -1205,13 +1205,38 @@ img.clients__logo:nth-child(5) {
     background-position: bottom -100px right -110px, top 70px left -100px;
   }
 }
+@media only screen and (min-width: 68.125rem) {
+  .contact-page {
+    padding-bottom: 8rem;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .contact-page__inner-content {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+}
 
+@media only screen and (min-width: 68.125rem) {
+  .left-content {
+    margin: 0;
+  }
+}
 .left-content__headings-container {
   text-align: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 3rem;
   gap: 1rem;
+}
+@media only screen and (min-width: 68.125rem) {
+  .left-content__headings-container {
+    text-align: left;
+    margin-left: 0rem;
+  }
 }
 .left-content__heading {
   margin: 0;
@@ -1221,6 +1246,11 @@ img.clients__logo:nth-child(5) {
 @media only screen and (min-width: 48rem) {
   .left-content__heading {
     font-size: 4rem;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .left-content__heading {
+    margin-bottom: 1rem;
   }
 }
 .left-content__description {
@@ -1254,6 +1284,12 @@ img.clients__logo:nth-child(5) {
   margin-top: 4rem;
   margin-bottom: 5.5rem;
 }
+@media only screen and (min-width: 68.125rem) {
+  .right-content {
+    width: 40%;
+    margin: 0;
+  }
+}
 
 @media only screen and (min-width: 48rem) {
   .form {
@@ -1267,7 +1303,7 @@ textarea {
 }
 
 input {
-  padding: 1.2rem;
+  padding: 1rem;
 }
 
 input,
