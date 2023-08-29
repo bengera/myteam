@@ -57,3 +57,14 @@ function setSuccessFor(input) {
 function isEmail(email) {
     return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
+
+// Clear Fields on refresh
+
+window.addEventListener('beforeunload', () => {
+    // Reset the values of the input fields
+    fullName.value = '';
+    email.value = '';
+    companyName.value = '';
+    title.value = '';
+    message.value = '';
+});

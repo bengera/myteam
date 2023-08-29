@@ -1294,6 +1294,10 @@ small {
   color: #F67E7E;
 }
 
+.form-control.success textarea {
+  border-color: #79C8C7;
+}
+
 .contact {
   display: flex;
   flex-direction: column;

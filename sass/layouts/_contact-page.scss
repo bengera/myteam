@@ -123,3 +123,7 @@ small {
   border-color: $color-light-coral;
   color: $color-light-coral;
 }
+
+.form-control.success textarea {
+  border-color: $color-rapture-blue;
+}
