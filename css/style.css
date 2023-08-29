@@ -1191,6 +1191,11 @@ img.clients__logo:nth-child(5) {
 
 .contact-page {
   padding: 1.5rem;
+  background-color: #014E56;
+  background-image: url(../assets/bg-pattern-contact-2.svg);
+  background-repeat: no-repeat;
+  bottom: 0;
+  background-position: bottom -100px right -110px;
 }
 
 .left-content__headings-container {
@@ -1229,12 +1234,20 @@ img.clients__logo:nth-child(5) {
 
 .right-content {
   margin-top: 4rem;
+  margin-bottom: 5.5rem;
+}
+
+textarea {
+  padding: 1.5rem 0 0 1rem;
+}
+
+input {
+  padding: 1.2rem;
 }
 
 input,
 textarea {
   width: 100%;
-  padding: 1rem;
   background-color: transparent;
   border-bottom-color: rgba(255, 255, 255, 0.5);
   border-top: 0;

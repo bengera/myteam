@@ -22,7 +22,7 @@
 
   @media only screen and (min-width: $bp-desktop) {
     gap: 16.25rem;
-      }
+  }
 
   &__left-content {
   }
@@ -48,15 +48,15 @@
 
     @media only screen and (min-width: $bp-desktop) {
       font-size: 3rem;
-        }
+    }
   }
 
   &__btn-contact {
     border: 2px solid $color-very-dark-green;
     padding: 0.8rem 2rem;
 
-border-radius: 1.5rem;
-text-decoration: none;
+    border-radius: 1.5rem;
+    text-decoration: none;
     background-color: transparent;
     font-size: 1.125rem;
     color: $color-very-dark-green;
