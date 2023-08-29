@@ -370,10 +370,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.btn-test {
-  background-color: #F67E7E;
-}
-
 body {
   background-color: #014E56;
   margin: 0 auto;
@@ -1197,6 +1193,13 @@ img.clients__logo:nth-child(5) {
   bottom: 0;
   background-position: bottom -100px right -110px;
 }
+@media only screen and (min-width: 48rem) {
+  .contact-page {
+    padding-top: 5rem;
+    background-image: url(../assets/bg-pattern-contact-2.svg), url(../assets/bg-pattern-about-2-contact-1.svg);
+    background-position: bottom -100px right -110px, top 70px left -100px;
+  }
+}
 
 .left-content__headings-container {
   text-align: center;
@@ -1209,6 +1212,11 @@ img.clients__logo:nth-child(5) {
   margin: 0;
   font-size: 2.5rem;
   color: #FFF;
+}
+@media only screen and (min-width: 48rem) {
+  .left-content__heading {
+    font-size: 4rem;
+  }
 }
 .left-content__description {
   font-size: 2rem;
@@ -1231,10 +1239,22 @@ img.clients__logo:nth-child(5) {
   max-width: 14.5rem;
   line-height: 1.75em;
 }
+@media only screen and (min-width: 48rem) {
+  .icons-container__text {
+    max-width: 22.5rem;
+  }
+}
 
 .right-content {
   margin-top: 4rem;
   margin-bottom: 5.5rem;
+}
+
+@media only screen and (min-width: 48rem) {
+  .form {
+    max-width: 33.75rem;
+    margin: 0 auto;
+  }
 }
 
 textarea {
