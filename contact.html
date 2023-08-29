@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/navigation.js" defer></script>
+  <script src="js/form.js" defer></script>
   <script src="js/section-contact.js" defer></script>
   <script src="js/footer.js" defer></script>
   <script defer src="js/main.js"></script>
@@ -47,11 +48,13 @@
       <div class="form-control">
         <label for="fullname"></label>
         <input type="text" placeholder="Name" id="fullname">
+        <small class="error-message"></small>
      </div>
 
      <div class="form-control">
       <label for="email"></label>
       <input type="email" placeholder="Email Address" id="email">
+      <small class="error-message"></small>
    </div>
 
    <div class="form-control">
@@ -67,6 +70,7 @@
 <div class="form-control">
   <label for="message"></label>
   <textarea rows="4" cols="33" placeholder="Message" id="message"></textarea>
+  <small class="error-message"></small>
 </div>
 <button class="btn-submit" type="submit">submit</button>
     </form>

@@ -1272,6 +1272,23 @@ textarea {
   cursor: pointer;
 }
 
+small {
+  color: #F67E7E;
+  font-size: 0.625rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-style: italic;
+}
+
+.form-control.success input {
+  border-color: #79C8C7;
+}
+
+.form-control.error input {
+  border-color: #F67E7E;
+  color: #F67E7E;
+}
+
 .contact {
   display: flex;
   flex-direction: column;

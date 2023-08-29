@@ -97,3 +97,22 @@ textarea {
   border: 0;
   cursor: pointer;
 }
+
+// FORM CONTROLS
+
+small {
+  color: $color-light-coral;
+  font-size: 0.625rem;
+  margin-top: 0.5rem;
+  margin-left:1rem;
+  font-style: italic;
+}
+
+.form-control.success input {
+  border-color: $color-rapture-blue;
+}
+
+.form-control.error input {
+  border-color: $color-light-coral;
+  color: $color-light-coral;
+}
