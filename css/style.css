@@ -1289,6 +1289,11 @@ small {
   color: #F67E7E;
 }
 
+.form-control.error textarea {
+  border-color: #F67E7E;
+  color: #F67E7E;
+}
+
 .contact {
   display: flex;
   flex-direction: column;

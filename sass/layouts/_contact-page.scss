@@ -108,11 +108,18 @@ small {
   font-style: italic;
 }
 
+
+
 .form-control.success input {
   border-color: $color-rapture-blue;
 }
 
 .form-control.error input {
+  border-color: $color-light-coral;
+  color: $color-light-coral;
+}
+
+.form-control.error textarea {
   border-color: $color-light-coral;
   color: $color-light-coral;
 }
