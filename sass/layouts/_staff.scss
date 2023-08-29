@@ -15,7 +15,6 @@
   &__content {
     padding: 1.5rem;
     position: relative;
-   
   }
 
   &__heading {
@@ -26,7 +25,7 @@
 
     @media only screen and (min-width: $bp-desktop) {
       font-size: 3rem;
-           }
+    }
   }
 
   &__boxes-container {
@@ -60,7 +59,7 @@
 
   @media only screen and (min-width: $bp-desktop) {
     width: 21rem;
-         }
+  }
 
   &__inner-content {
   }
@@ -111,11 +110,10 @@
 
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
-        background-color:$color-rapture-blue;
+        background-color: $color-rapture-blue;
         border-color: $color-rapture-blue;
       }
     }
-    
   }
 
   &__quote {
@@ -133,11 +131,14 @@
     background-color: $color-rapture-blue;
     border: 0;
     padding: 1.3rem;
-    
+
+    @media only screen and (min-width: $bp-tablet) {
+      bottom: -100px;
+    }
 
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
-        background-color:$color-light-coral;
+        background-color: $color-light-coral;
         border-color: $color-light-coral;
       }
     }

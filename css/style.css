@@ -1041,6 +1041,11 @@ div.testimonials__box:nth-child(3) {
   border: 0;
   padding: 1.3rem;
 }
+@media only screen and (min-width: 48rem) {
+  .box__cross.aqua {
+    bottom: -100px;
+  }
+}
 @media only screen and (min-width: 68.125rem) {
   .box__cross.aqua:hover {
     background-color: #F67E7E;
