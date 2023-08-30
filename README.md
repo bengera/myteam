@@ -2,7 +2,6 @@
 
 This is a solution to the [myteam website challenge on Frontend Mentor](https://github.com/bengera/myteam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-
 ## Overview
 A good challenge that caused me to stop and really think about the layout at times. The background images on each sections of the 3 page website also proved a bit
 of a challenge at times, but I managed to get them as close as I could to the design files.
@@ -20,16 +19,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](/screenshot.jpg)
-
-
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./screenshot.png)
 
 ### Links
 
 - [Live site](https://bengera.github.io/myteam/)
-
 
 ### Built with
 
@@ -52,8 +46,6 @@ Allows CSS background images to be positioned relative to the specified edge.
   background-repeat: no-repeat;
   background-position: bottom -100px right -90px; 
   background-image: url(../assets/bg-pattern-about-1-mobile-nav-1.svg);
-
- 
     
 }
 ```
