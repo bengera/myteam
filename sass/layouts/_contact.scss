@@ -24,8 +24,7 @@
     gap: 16.25rem;
   }
 
-  &__left-content {
-  }
+ 
 
   &__right-content {
     margin-top: 0.7rem;
@@ -63,10 +62,7 @@
     width: 153px;
     cursor: pointer;
 
-    // @media only screen and (min-width: $bp-tablet) {
-    //   height: 3rem;
-    //   padding: 0;
-    // }
+    
 
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
