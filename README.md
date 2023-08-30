@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](https://github.com/bengera/myteam/blob/main/screenshot.PNG?raw=true)
 
 ### Links
 
