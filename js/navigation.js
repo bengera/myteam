@@ -9,7 +9,7 @@ class Navigation extends HTMLElement {
     <div class="navigation-container">
              
     <img src="./assets/logo.svg" alt="logo" class="logo">
-    <button class="hamburger-menu"></button>
+    <button aria-label="menu" class="hamburger-menu"></button>
 
     <nav class="nav-primary">
      <ul class="nav-primary__list">
