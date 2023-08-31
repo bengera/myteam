@@ -40,6 +40,7 @@
   &__bg-img {
     position: absolute;
     right: -100px;
+    
 
     @media only screen and (min-width: $bp-tablet) {
       top: 0;
@@ -50,7 +51,7 @@
       top:auto
     }
 
-    bottom: 0;
+   
   }
 
   &__heading {
