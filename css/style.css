@@ -1335,6 +1335,7 @@ img.clients__logo:nth-child(5) {
 
 textarea {
   padding: 1.5rem 0 0 1rem;
+  resize: none;
 }
 
 input {
