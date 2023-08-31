@@ -43,4 +43,8 @@ svg {
 
 svg:hover path {
   fill: $color-light-coral;
+  
+  @media only screen and (min-width: $bp-tablet) {
+    @include transition;
+  }
 }

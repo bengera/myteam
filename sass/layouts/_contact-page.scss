@@ -18,6 +18,7 @@
 
   @media only screen and (min-width: $bp-desktop) {
     padding-bottom: 8rem;
+    background-position: bottom -0px right -105px, top 70px left -100px;
            }
 
   &__inner-content {
@@ -152,6 +153,18 @@ textarea {
   border-radius: 1.5rem;
   border: 0;
   cursor: pointer;
+  
+
+  @media only screen and (min-width: $bp-desktop) {
+    @include transition;
+    margin-top: 1rem;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-rapture-blue;
+      scale: 1.1;
+    }
+  }
 }
 
 // FORM CONTROLS

@@ -69,12 +69,13 @@
     }
   }
 
-  &__nav-item {
-  }
-
   &__nav-link {
     color: white;
     text-decoration: none;
+
+    @media only screen and (min-width: $bp-desktop) {
+      @include transition;
+    }
 
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
@@ -129,6 +130,7 @@
 
     @media only screen and (min-width: $bp-desktop) {
       height: 1.5rem;
+      
     }
   }
 

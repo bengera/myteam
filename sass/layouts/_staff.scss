@@ -108,6 +108,10 @@
     padding: 1.1rem;
     cursor: pointer;
 
+    @media only screen and (min-width: $bp-desktop) {
+      @include transition;
+    }
+
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
         background-color: $color-rapture-blue;

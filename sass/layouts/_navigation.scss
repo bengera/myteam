@@ -97,16 +97,27 @@
     @media only screen and (min-width: $bp-tablet) {
       margin: 0;
       font-size: 1.125rem;
+      
     }
+
+    
+
+    
   }
 
   &__list-link {
     color: white;
     text-decoration: none;
 
+    @media only screen and (min-width: $bp-desktop) {
+      @include transition;
+    }
+       
+
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
         color: $color-light-coral;
+        
       }
     }
   }
@@ -121,15 +132,23 @@
     font-size: 18px;
     text-decoration: none;
     text-align: center;
-
+    
+    
+    
     @media only screen and (min-width: $bp-tablet) {
       width: 9.5rem;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+      @include transition;
+    }
+   
 
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
         color: #000;
         background-color: $color-white;
+        
       }
     }
   }

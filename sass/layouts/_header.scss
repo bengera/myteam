@@ -73,16 +73,21 @@
     }
   }
 
-  &__left {
-  }
-
+ 
   &__content-right {
     @media only screen and (min-width: $bp-desktop) {
       display: flex;
       align-items: flex-end;
+      
     }
 
     
+
+    
+  }
+  
+  &__content-right.about {
+    margin-left: 11.94rem;
   }
 
   &__description {
@@ -164,7 +169,7 @@
 
 .header__heading.about {
   @media only screen and (min-width: $bp-desktop) {
-    margin-top: 2.5rem;
+    margin-top: 0;
     font-size: 4.5rem;
      }
 }
