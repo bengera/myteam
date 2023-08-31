@@ -25,6 +25,11 @@
   width: 128px;
   height: 32px;
   align-self: center;
+
+  @media only screen and (min-width: $bp-desktop) {
+    width: 10rem;
+    height: 2.5rem;
+  }
 }
 
 .navigation-container {
@@ -97,12 +102,7 @@
     @media only screen and (min-width: $bp-tablet) {
       margin: 0;
       font-size: 1.125rem;
-      
     }
-
-    
-
-    
   }
 
   &__list-link {
@@ -112,12 +112,10 @@
     @media only screen and (min-width: $bp-desktop) {
       @include transition;
     }
-       
 
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
         color: $color-light-coral;
-        
       }
     }
   }
@@ -132,9 +130,7 @@
     font-size: 18px;
     text-decoration: none;
     text-align: center;
-    
-    
-    
+
     @media only screen and (min-width: $bp-tablet) {
       width: 9.5rem;
     }
@@ -142,13 +138,11 @@
     @media only screen and (min-width: $bp-desktop) {
       @include transition;
     }
-   
 
     &:hover {
       @media only screen and (min-width: $bp-desktop) {
         color: #000;
         background-color: $color-white;
-        
       }
     }
   }
