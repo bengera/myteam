@@ -361,7 +361,6 @@ h3 {
 html,
 body {
   margin: 0;
-  height: 100%;
   overflow-x: hidden;
 }
 
@@ -373,7 +372,6 @@ html {
 body {
   background-color: #014E56;
   margin: 0 auto;
-  overflow-x: hidden;
   font-family: "Livvic", sans-serif;
 }
 
