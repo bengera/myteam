@@ -3,8 +3,7 @@
 This is a solution to the [myteam website challenge on Frontend Mentor](https://github.com/bengera/myteam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Overview
-A good challenge that caused me to stop and really think about this site's layout and how I could structure the HTML to easily transition between mobile, tablet and desktop. The background images on each sections of the 3 page website also proved a bit
-of a challenge at times, but I managed to get them as close as I could to the design files.
+A good challenge that caused me to stop and really think about this site's layout and how I could structure the HTML to easily transition between mobile, tablet and desktop. The background images on each of the sections of the proved a bitof a challenge at times in terms of positioning, but I managed to get them as close as I could to the design files.
 
 ### The challenge
 
