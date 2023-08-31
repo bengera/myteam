@@ -87,7 +87,12 @@
   }
   
   &__content-right.about {
-    margin-left: 11.94rem;
+
+    @media only screen and (min-width: $bp-desktop) {
+      
+      margin-left: 11.94rem;
+    }
+   
   }
 
   &__description {

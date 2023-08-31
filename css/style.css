@@ -473,8 +473,10 @@ svg:hover path {
     align-items: flex-end;
   }
 }
-.header__content-right.about {
-  margin-left: 11.94rem;
+@media only screen and (min-width: 68.125rem) {
+  .header__content-right.about {
+    margin-left: 11.94rem;
+  }
 }
 .header__description {
   line-height: 28px;
