@@ -625,7 +625,7 @@ svg:hover path {
   background-image: url(../assets/bg-pattern-about-1-mobile-nav-1.svg);
   background-repeat: no-repeat;
   height: 100vh;
-  background-position: 240% 65%;
+  background-position: 240% 85%;
 }
 @media only screen and (min-width: 48rem) {
   .nav-primary {
