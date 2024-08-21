@@ -11,9 +11,11 @@ hamMenu.addEventListener('click', () => {
     if (hamMenu.classList.contains('active')) {
         console.log('menu-open');
         document.body.style.overflowY = 'hidden';
+        document.body.setAttribute("style", "position:fixed");
     } else {
         overlay.classList.toggle('active');
         document.body.style.overflowY = 'visible';
+        document.body.setAttribute("style", "position:static");
     }
 });
 

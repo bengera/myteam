@@ -373,6 +373,7 @@ body {
   background-color: #014E56;
   margin: 0 auto;
   font-family: "Livvic", sans-serif;
+  width: 100%;
 }
 
 .m-s {
@@ -624,7 +625,7 @@ svg:hover path {
   height: 100%;
   background-image: url(../assets/bg-pattern-about-1-mobile-nav-1.svg);
   background-repeat: no-repeat;
-  background-position: 220% 90%;
+  background-position: 220% 44%;
 }
 @media only screen and (min-width: 48rem) {
   .nav-primary {
